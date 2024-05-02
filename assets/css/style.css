@@ -30,6 +30,10 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+h2 {
+  text-align: center;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -54,6 +58,21 @@ header {
   min-height: 100px;
 }
 
+table {
+  width:100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td{
+  text-align: center;
+  border:4px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: hsl(223, 64%, 90%);
+}
+
 .card-footer {
   text-align: center;
 }
@@ -74,8 +93,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
-  border-radius: 25px;
+  background-color: hsl(223, 74%, 48%);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
@@ -97,36 +115,12 @@ button[disabled] {
   float: right;
 }
 
-#password {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  display: block;
-  width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
-  resize: none;
-  overflow: hidden;
-}
 
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
-  }
-
-  #password {
-    font-size: 1rem;
   }
 }
 
