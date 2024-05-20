@@ -15,7 +15,7 @@ This website tracks employee names, salary, and average salaries of all listed e
 
 ## Website Links
 
-**Deployed Site:**
+**Deployed Site:** https://pauleerama93.github.io/03-module-03-challenge/
 
 **Google Doc:** https://docs.google.com/document/d/1gSOGwC9D6FRdNbrgqun1FucEKbeT93dE77jjjNvJTkQ/edit?usp=sharing 
 I set up a todo with notes on how to complete the tasks in a google docs. You're more than welcome to check it out!
@@ -31,6 +31,7 @@ I set up a todo with notes on how to complete the tasks in a google docs. You're
 **UC Berkley's Bootcamp Staff:** Drew Hoang and Kyle Vance for all their support and guidence. 
 
 **Starter Code:** Xander Rapstine (https://github.com/Xandromus) provided the stater code located on GitHub.
+
 
 ## User Story 
 AS A payroll manager
